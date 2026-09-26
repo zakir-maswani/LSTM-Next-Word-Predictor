@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LSTM Next Word Predictor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="card">
+    <h1>🔮 Next Word Predictor</h1>
+    <p class="subtitle">Powered by a PyTorch LSTM model + FastAPI</p>
+
+    <label for="inputText">Type some text:</label>
+    <textarea id="inputText" rows="3" placeholder="e.g. the course fee is"></textarea>
+
+    <label for="numWords">How many words to predict:</label>
+    <input type="number" id="numWords" value="3" min="1" max="20" />
+
+    <button id="predictBtn" onclick="predictNextWords()">Predict Next Words</button>
+
+    <div id="result" class="result"></div>
+    <div id="error" class="error"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
