@@ -22,7 +22,7 @@
 ---
 
 <div align="center">
-  <img src="./demo_material/lstm_next_word_predictor_demo_pic.png" alt="Demo Screenshot" width="800"/>
+  <img src="./demo_material/lstm_next_word_predictor_demo_image1.png" alt="Demo Screenshot" width="800"/>
 </div>
 
 ## 📖 Overview
