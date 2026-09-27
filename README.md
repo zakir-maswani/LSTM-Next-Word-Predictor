@@ -21,6 +21,10 @@
 
 ---
 
+<div align="center">
+  <img src="./demo_material/lstm_next_word_predictor_demo_pic.png" alt="Demo Screenshot" width="800"/>
+</div>
+
 ## 📖 Overview
 
 **LSTM Next Word Predictor** is an end-to-end deep learning project that takes you from raw text all the way to a live, interactive web app:
